@@ -1,0 +1,169 @@
+==> tags:
+
+1) <!DOCTYPE HTML>
+2) <html></html>
+3) <head></head>
+4) <body></body>
+5)<title></title>
+6) <p></p>   (paragraph tag)
+7)<pre></pre> (preserves all the formations of text)
+8)<h1></h1> (same fot h1 to h6)
+9)<br> (break the line)
+10)<hr> (put horizontal line)
+11)<img src=" " download alt=" " width=" " height=" ">
+(
+https://www.w3.org/WAI/tutorials/images/decision-tree/ 
+Follow this link for understanding to use a better alt text
+)
+12)<a href= " "  title= " " target= " "  > text or image</a> (anchor tag)
+13) <blockquote> </blockquote> (long quotation)
+14) <q> </q> (short quotation)
+15)<marquee> </marquee> (depreciated in HTML5)
+16) <address> </address>
+(
+The <address> tag defines the contact information for the author/owner of a document or an article.
+
+The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+)
+17)< button type=" " >Text </button>
+
+==> text formating tags :
+
+16) <b> <\b> (makes the text Bold) (stylistically)
+17) <strong> <\strong> (makes the text bold) (Importance)
+18) <i> </i> (Italic) (Alternative voice or tone)
+19) <em> <\em> (emphasize/italic) (Stressed emphasis)
+20) <mark> </mark> (highlight)
+21) <u> </u> (underline)
+22) <ins> </ins>  (Underline)
+23) <big> </big>
+24) <small> </small> 
+25) <del> </del> (cut text)
+26) <strike> </strike> (cut text) (depreciated in HTML5) 
+27) <tt> </tt>  (monospaced text) (depreciated in HTML5)
+28) <sup> </sup>
+29) <sub> </sub>
+30) <cite> </cite>  ( name of books , poems etc )
+31) <abbr  title=" " > </abbr>
+32) <code> </code> (define a piece of computer code)
+
+==> Table Tags 
+
+1) <table border=" " width=" " height=" "  > </table
+2) <tr > </tr> (table row)
+2) <th colspan=" " rowspan=" " scope=" " > </th> (table header cell)
+3) <td> </td> (table cell)
+	table structure
+4) <caption> (table title)
+5) <thead></thead>
+6) <tbody></tbody>
+7) <tfoot></tfoot>
+
+==> List Tags
+
+three types: unordered , ordered , description
+
+1) <ul type="none/disc/square/circle "> </ul>  (unordered list)
+2) <ol type="A\a\i\I\1 " start="30" reversed > </ol> (ordered list)
+(reversed is boolean parameter and don't accept any value)
+3) <li value="9" > </li> (list item)
+(value will make the index no of that list item and the other item came after this will have index according to it)
+4) <dl></dl> (description list)
+5) <dt></dt> (description term)
+6) <dd></dd> (description description)
+
+Note: ( we can nested more than one lists with in each other)
+--------------------------------------------------------------------------------------------
+1) <iframe src= " "  frameborder="" title=" " height=" " width=" "> </iframe>
+2) <audio src=" " controls    loop  autoplay  muted  buffered  volume   > </audio>
+
+3) <video src=" " height=" " width=" " controls  autoplay loop  > text </video>
+
+setting clips:
+you can set both the video and audio elements to play clips by adding to the src attribute
+* #t=5,25
+* #t= , 39
+* #t= , 1:38:45
+* #t= 42
+4)<meter id="" min="" max="" value=""> </meter> 
+5) <progress id="" min="" max="" value=""> </progress>
+(Tip: always add label tag with progress and meter tags)
+6)<iframe frameborder="" width="" height="" title=""></iframe>
+7) bidirectional override(bdo):
+<bdo dir="" >text <bdo>
+
+==> HTML entities
+
+ % name or number  ;
+
+==> Head elements 
+
+41)<title> </title>
+42) <link rel="" href="" >
+43)  i) <meta charset="" >
+       ii) <meta name="keywords  " content=" "> 
+      iii) <meta http-equiv=" " content = " "> 
+      iv) <meta name="viewport" content= " width=device-width , initial-scale=1.0" > 
+       v) <script> </script> (used for javascript)
+
+==> Building Structure
+
+<header> </header>
+<nav> </nav>
+<main> </main>
+<article> </article>
+<section> </section>
+<footer>  </footer>
+
+==> Encoding Special Characters (special entities)
+
+Each encoded character will begin with an ampersand, &, and end with a semicolon, ;. What falls between the ampersand and semicolon is a character’s unique encoding, be it a name or numeric encoding.
+
+website:
+http://copypastecharacter.com/
+
+==> Hyperlink
+
+* link other pages of the same website
+
+<a href="about.html">About</a>
+(here about.html is the file of about page)
+
+* link Email address
+
+<a href="mailto:shay@awesome.com?subject=Reaching%20Out&body=How%20are%20you">Email Me</a>
+
+(
+* here is we write the emailaddress after mailto: 
+  * " ? " will be used before giving 1st parameter. 
+  * " %20 " is for space 
+  * " %0A " is for line break
+  * " & " is for seperating the parameters
+) 
+
+* linking the parts of same page
+you have to give the id of particular section then we can link by this syntax
+<a href="#id"  > </a> 
+
+==> figure tag
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+
+==> aria-label
+aria label is an attribute used to define a string that labels the current element.
+example:
+<a> href="" aria-label= " " </a>
+
+==> font awesome
+
+It is a website used to integrate logos in your website.
+
+==> Details and summary tags 
+The <details> tag specifies additional details that the user can open and close on demand.
+
+The <summary> tag is used in conjuction with <details> to specify a visible heading for the details.
+
+time     map
+
