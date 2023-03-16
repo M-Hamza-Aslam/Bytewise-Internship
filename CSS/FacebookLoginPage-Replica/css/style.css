@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+.main{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec1{
+    /* font-family: 'Source Sans Pro' , Helvetica, Arial, sans-serif ; */
+    font-family:  Helvetica, Arial, sans-serif ;
+    width: 40vw;
+    margin-left: 50px;
+}
+.sec1 p{
+    font-family: 'Klavika Regular', sans-serif;
+    color: #166fe5;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.sec1 h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+.sec2{
+    background-color: white;
+    width: 40vw;
+    margin: 139px 40px 0px 110px;
+    border-radius: 7px;
+    /* border: 10px transparent black;
+    box-shadow:10px black; */
+}
+.sec2 input{
+    display: block;
+    background-color: white;
+    border: 1px solid #f0f2f5 ;
+    border-radius: 7px;
+    margin: 15px;
+    padding: 5px;
+    width: 370px;
+    height: 40px;
+    font-family:  Helvetica, Arial, sans-serif ;
+    font-size: 17px;
+    color:#8F939B;
+
+
+}
+.btn1{
+    color: white;
+    display: block;
+    background-color: #166fe5;
+    border: 1px solid #166fe5 ;
+    border-radius: 7px;
+    margin: 15px;
+    width: 382px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:  Helvetica, Arial, sans-serif ;
+}
+.a1{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #1877f2;
+    cursor: pointer;
+    font-family:  Helvetica, Arial, sans-serif ;
+    font-size: 14px;
+    background-color: white;
+}
+.hrline{
+    background-color: #CBCDD0;
+    margin: 15px ;
+    width: 382px;
+    height: 1px;
+}
+.btn2{
+    margin: 10px 110px 20px;
+    width: 200px;
+    height: 50px;
+    
+    border-radius: 7px;
+    background-color: #42b72a;
+    color: white;
+
+    font-family:  Helvetica, Arial, sans-serif ;
+    font-weight:bold;
+    font-size: large;
+}
+.foot{
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    font-family:  Helvetica, Arial, sans-serif ;
+    font-size:14px
+
+}
+.foot p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}

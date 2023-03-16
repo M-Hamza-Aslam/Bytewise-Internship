@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: whitesmoke;
+    height: 56px;
+
+}
+ul{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+li{
+    list-style: none;
+    margin: 18px;
+}
+.color{
+    display: flex;
+    background-color: rgb(53, 221, 243);
+    justify-content: center;
+    align-items: center;
+}
+img{
+    animation: check 2s ease-in 1s infinite;
+}
+.progressbar{
+    height: 3px;
+    background-color: red;
+    animation: p-bar 6s ease-in-out;
+}
+@keyframes p-bar {
+    0%{width: 7vw;}
+    25%{width: 25vw;}
+    50%{width: 50vw;}
+    75%{width: 75vw;}
+    100%{
+        width: 100vw;
+        visibility:hidden;}
+}
+@keyframes check {
+    0% {width: 400px;}
+    50% {width: 600px;}
+    75% {width: 800px;}
+    100% {width: 1000px;}
+}
+@media only screen and (max-width: 800px) {
+    .color{
+        background-color:greenyellow;
+    }
+}
+    @media only screen and (max-width: 600px) {
+        .color{
+            background-color: blue;
+        }
+    }
