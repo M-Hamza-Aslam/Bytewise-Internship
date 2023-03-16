@@ -1,0 +1,57 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto+Slab&display=swap');
+
+/* nav bar links */
+.own-hover{
+  color: white !important;
+}
+.own-hover:hover{
+    color: #7dc22b !important;
+    font-weight: bold;
+}
+.active{
+  color: #7dc22b !important;
+}
+/* nav bar links end */
+
+/* header image */
+.carousel .carousel-item {
+  max-height:550px;
+}
+
+.carousel-item img {
+  object-fit:cover;
+  max-height:550px;
+}
+/* header image end */
+
+/* header image button  */
+.own-button{
+  background-color: #7dc22b;
+  border-color: #7dc22b;
+}
+.own-button:hover{
+  background-color: transparent;
+  color: #7dc22b;
+  border-color: #7dc22b;
+}
+/* header image button ends */
+
+/* header image*/
+@media screen and (max-width:430px) {
+  .carousel-caption > button {
+    display: none;
+  }
+  .carousel-caption{
+    bottom: 0.25rem;
+  }
+  .carousel-caption > h1{
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width:290px) {
+  .carousel-caption {
+    display: none !important;
+  }
+}
+/* header image end */

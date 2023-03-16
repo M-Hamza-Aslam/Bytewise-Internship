@@ -1,0 +1,91 @@
+
+/* service secion h1 */
+.ownheading{
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+/* service secion h1 end */
+
+/* sercive section para */
+.ownpara{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.19rem;
+}
+/* sercive section para end */
+
+/* card icon */
+.owncard-icon{
+    width: 90px;
+    height: 90px;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    border-radius: 50%;
+    background-color: #7dc22b;
+    text-align: center;
+}
+/* card icon end */
+
+/* about section image*/
+@media screen and (min-width:880px) {
+    #aboutimg{
+        height: 850px;
+        object-fit: fill;
+    }
+}
+/* about section image end*/
+
+/* Service section image */
+.ownImg{
+    width: 400px;
+    height: 325px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* Service section image */
+
+/* service section <a> tag */
+.ownatag01{
+    font-weight: bold;
+    text-decoration: none; 
+    color: #7dc22b;
+}
+.ownatag01:hover{
+    color: black;
+}
+/* service section <a> tag end */ 
+
+/* contact section */
+#contactus{
+    background:  no-repeat center center url(../img/contact_background.jpg) ;
+}
+.ownatag02{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.ownatag02:hover{
+    color: #7dc22b
+}
+/* contact form */
+.form-control{
+    border-color: #374959;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+/* contact form end */
+
+/* contact section end  */
+
+/* footer */
