@@ -1,0 +1,109 @@
+/* Apply a universal box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Set body margin and padding to 0 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply flexbox layout to the container */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style the main content area */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+main section {
+  margin-bottom: 30px;
+}
+
+main h2 {
+  margin-top: 0;
+}
+
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the contact form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
