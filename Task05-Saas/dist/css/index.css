@@ -1,4 +1,5 @@
 /* reset default browser styles */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto+Slab&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,52 @@
 }
 
 /* define variables */
+.own-hover {
+  color: white !important;
+}
+.own-hover:hover {
+  color: #7dc22b !important;
+  font-weight: bold;
+}
+
+.active {
+  color: #7dc22b !important;
+}
+
+.carousel-item {
+  max-height: 550px;
+}
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 550px;
+}
+.carousel-caption > button.own-button {
+  background-color: #7dc22b;
+  border-color: #7dc22b;
+}
+.carousel-caption > button.own-button:hover {
+  background-color: transparent;
+  color: #7dc22b;
+  border-color: #7dc22b;
+}
+@media screen and (max-width: 430px) {
+  .carousel-caption {
+    bottom: 0.25rem;
+  }
+  .carousel-caption > button.own-button {
+    display: none;
+  }
+  .carousel-caption > h1 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 290px) {
+  .carousel-caption {
+    display: none !important;
+  }
+}
+
 /* service section heading */
 .ownheading {
   font-weight: 700;
