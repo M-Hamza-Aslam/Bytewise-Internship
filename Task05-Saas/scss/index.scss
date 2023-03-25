@@ -1,0 +1,86 @@
+@import "resets";
+@import "variables";
+
+/* service section heading */
+.ownheading {
+  font-weight: 700;
+  font-family: $font-secondary;
+}
+
+/* service section paragraph */
+.ownpara {
+  font-family: $font-primary;
+  font-size: 1.19rem;
+}
+
+/* card icon */
+.owncard-icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 2rem;
+  border-radius: 50%;
+  background-color: $primary-color;
+  text-align: center;
+}
+
+/* about section image */
+@media screen and (min-width: 880px) {
+  #aboutimg {
+    height: 850px;
+    object-fit: fill;
+  }
+}
+
+/* service section image */
+.ownImg {
+  width: 400px;
+  height: 325px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* service section link */
+.ownatag01 {
+  font-weight: bold;
+  text-decoration: none;
+  color: $primary-color;
+
+  &:hover {
+    color: black;
+  }
+}
+
+/* contact section */
+#contactus {
+  background: no-repeat center center url(../img/contact_background.jpg);
+}
+
+.ownatag02 {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+/* contact form */
+.form-control {
+  border-color: $secondary-color;
+
+  &::placeholder {
+    color: white;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: white;
+  }
+
+  &::-ms-input-placeholder {
+    color: white;
+  }
+}
+
+/* footer */

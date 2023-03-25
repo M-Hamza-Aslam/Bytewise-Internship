@@ -1,0 +1,58 @@
+// google font
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto+Slab&display=swap");
+
+// nav bar links
+.own-hover {
+  color: white !important;
+
+  &:hover {
+    color: #7dc22b !important;
+    font-weight: bold;
+  }
+}
+
+.active {
+  color: #7dc22b !important;
+}
+
+// header image
+.carousel {
+  &-item {
+    max-height: 550px;
+  }
+
+  &-item img {
+    object-fit: cover;
+    max-height: 550px;
+  }
+
+  // header image button
+  &-caption {
+    > button.own-button {
+      background-color: #7dc22b;
+      border-color: #7dc22b;
+
+      &:hover {
+        background-color: transparent;
+        color: #7dc22b;
+        border-color: #7dc22b;
+      }
+    }
+
+    @media screen and (max-width: 430px) {
+      > button.own-button {
+        display: none;
+      }
+
+      bottom: 0.25rem;
+
+      > h1 {
+        font-size: 1.25rem;
+      }
+    }
+
+    @media screen and (max-width: 290px) {
+      display: none !important;
+    }
+  }
+}
