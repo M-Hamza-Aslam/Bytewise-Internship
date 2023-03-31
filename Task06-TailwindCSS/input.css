@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind component;
+@tailwind utilities;
+/* Custom CSS */
+.btn-primary {
+  background-color: #3182ce;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #2c5282;
+}
+
+.text-primary {
+  color: #3182ce;
+}
+
+.text-secondary {
+  color: #718096;
+}

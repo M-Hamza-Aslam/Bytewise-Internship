@@ -1,0 +1,15 @@
+{
+  "name": "task06-tailwindcss",
+  "version": "1.0.0",
+  "description": "A tailwing practice project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "author": "Muhammad Hamza",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
