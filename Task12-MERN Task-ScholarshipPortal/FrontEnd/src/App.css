@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Nunito&display=swap");
+
+/* FAQ Component Styling */
+.row-title {
+  font-family: "Crimson Text";
+  font-size: larger !important;
+  font-weight: bold;
+}
+
+.row-content {
+  font-family: "Nunito";
+}
+.loadingDiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  margin: 10% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
